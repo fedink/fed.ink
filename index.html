@@ -1,0 +1,94 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#222222">
+
+    <title>fed.ink</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,600" rel="stylesheet" type="text/css">
+
+    <!-- Styles -->
+    <style>
+        *::selection {
+            color: #eee;
+            background: #222222;
+        }
+
+        html,
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 300;
+            height: 100%;
+            margin: 0;
+
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        a,
+        a:link,
+        a:active,
+        a:hover,
+        a:visited {
+            color: inherit;
+            transition: all .2s;
+        }
+
+        a:hover {
+            opacity: 0;
+        }
+
+        .content {
+            text-align: center;
+            margin: 10% 10%;
+        }
+
+        .title {
+            font-size: 36px;
+            padding: 20px;
+        }
+
+        .footer {
+            font-size: 14px;
+        }
+
+        .quote {
+            font-size: 12px;
+            margin-top: 6px;
+            opacity: 0.5;
+        }
+
+        .main-pic {
+            height: 70vh;
+            width: 90vw;
+            margin-bottom: 25px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url('assets/info.jpg');
+        }
+    </style>
+
+    <script src="js/para.js"></script>
+</head>
+
+<body cz-shortcut-listen="true">
+    <div class="content" id="parallax-scene"> 
+        <article class="main-pic layer" data-depth="0.2">
+        </article>
+        <footer>
+            <div class="quote">Designed & Developed by <a href="http://www.tzingtao.com">Tzingtao Chow</a>.</div>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
